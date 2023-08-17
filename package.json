@@ -1,0 +1,19 @@
+{
+  "name": "czml",
+  "version": "1.0.0",
+  "description": "卫星轨道生成czml",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cesium": "^1.108.0",
+    "julian": "^0.2.0",
+    "moment": "^2.29.4",
+    "ramda": "^0.29.0",
+    "satellite.js": "^5.0.0"
+  }
+}
